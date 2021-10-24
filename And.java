@@ -1,0 +1,18 @@
+class And {
+	public static void main(String[] a) {
+	    boolean b;
+	    boolean c;
+	    int x;
+	    
+        x = 2;
+        b = x < 4;
+        c = ! true;
+
+        if (b && c)
+            x = 0;
+        else
+            x = 1;
+
+	    System.out.println(x);
+	}
+}
